@@ -2,4 +2,4 @@
 
 ## Live Preview - https://alqma-simple-counter.netlify.app/
 
-## Made with 💓 Alqma.
+## Made with 💓 from Alqma.
