@@ -1,0 +1,109 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ================ Navbar ================= */
+
+.navbar-app {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  margin-bottom: 16px;
+  background: linear-gradient(180deg, lavenderblush 0%, white 100%);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 10%);
+}
+
+@media (max-width: 670px) {
+  .navbar-app {
+    padding: 16px;
+  }
+}
+
+.navbar-app .left {
+  all: unset;
+  display: flex;
+  flex: 1;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.navbar-app .left .back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  color: black;
+  transform: scaleY(2);
+}
+
+.navbar-app .left .logo {
+  display: flex;
+  flex-grow: 1;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.navbar-app .left .logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.navbar-app h1 {
+  margin: 0;
+}
+
+.navbar-app .right {
+  all: unset;
+  flex: 1;
+  text-align: right;
+}
+
+@media (max-width: 670px) {
+  .navbar-app .right {
+    display: flex;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.navbar-app .right .social-links {
+  width: 30px;
+  height: 30px;
+  vertical-align: text-bottom;
+  margin-left: 1rem;
+}
+
+/* ========= Main ========= */
+
+#container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+input {
+  border: 1px solid black;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: brown;
+  color: white;
+  font-size: 1rem;
+}
