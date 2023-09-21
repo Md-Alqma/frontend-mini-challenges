@@ -124,8 +124,10 @@ button {
 }
 
 input {
-  padding: 10px 5px;
+  padding: 8px 4px;
   text-align: center;
   font-size: 1rem;
   border: 1px solid red;
+  outline: none;
+  border-radius: 10px;
 }
