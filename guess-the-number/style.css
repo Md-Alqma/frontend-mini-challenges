@@ -104,6 +104,13 @@ input {
   margin-top: 10px;
   cursor: pointer;
   background-color: brown;
-  color: white;
   font-size: 1rem;
+}
+
+.submit-btn {
+  color: white;
+}
+
+.start-btn {
+  cursor: not-allowed;
 }
