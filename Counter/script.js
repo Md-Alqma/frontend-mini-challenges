@@ -3,16 +3,12 @@ const increament = document.querySelector(".increase");
 const decreament = document.querySelector(".decrease");
 const reset = document.querySelector(".reset");
 
-steps.addEventListener("change", () => {
-  stepCount = steps.innerHTML;
-});
-
 increament.addEventListener("click", () => {
-  showCount.innerHTML = Number(showCount.innerHTML) + stepCount;
+  showCount.innerHTML = Number(showCount.innerHTML) + 1;
 });
 
 decreament.addEventListener("click", () => {
-  showCount.innerHTML = Number(showCount.innerHTML) - stepCount;
+  showCount.innerHTML = Number(showCount.innerHTML) - 1;
 });
 
 reset.addEventListener("click", () => {

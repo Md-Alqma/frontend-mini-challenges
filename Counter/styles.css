@@ -5,6 +5,8 @@
   padding: 0;
 }
 
+/* ================ Navbar ================= */
+
 .navbar-app {
   display: flex;
   gap: 2rem;
@@ -77,4 +79,39 @@ a {
   height: 30px;
   vertical-align: text-bottom;
   margin-left: 1rem;
+}
+
+/* ============== Counter ================ */
+
+#container {
+  /* text-align: center;
+  border: 1px solid black;
+  width: 70%;
+  margin: auto;
+  height: auto;
+  margin-top: 40px; */
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.count {
+  width: 150px;
+  text-align: center;
+  padding: 10px 40px;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: brown;
+  color: white;
+}
+
+button {
+  width: auto;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-right: 10px;
+  background-color: rgb(102, 130, 155);
 }
