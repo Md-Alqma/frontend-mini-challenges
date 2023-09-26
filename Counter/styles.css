@@ -90,10 +90,15 @@ a {
   margin: auto;
   height: auto;
   margin-top: 40px; */
+  width: 30%;
   display: flex;
-  height: 80vh;
+  height: 40vh;
+  margin: auto;
+  margin-top: 50px;
   justify-content: center;
   align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .count {
